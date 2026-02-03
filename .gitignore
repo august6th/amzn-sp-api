@@ -3,3 +3,4 @@ vendor
 scripts
 config.json
 /*.php
+.DS_Store
