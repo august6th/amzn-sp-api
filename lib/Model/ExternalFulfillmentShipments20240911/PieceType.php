@@ -52,7 +52,7 @@ class PieceType
     public static function getAllowableEnumValues()
     {
         return [
-            self::SINGLE
+            self::SINGLE,
             self::MULTIPLE
         ];
     }

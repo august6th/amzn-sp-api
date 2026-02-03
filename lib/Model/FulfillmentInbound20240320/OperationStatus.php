@@ -53,8 +53,8 @@ class OperationStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::SUCCESS
-            self::FAILED
+            self::SUCCESS,
+            self::FAILED,
             self::IN_PROGRESS
         ];
     }

@@ -54,9 +54,9 @@ class LabelStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::GENERATING
-            self::GENERATED
-            self::GENERATION_FAILED
+            self::GENERATING,
+            self::GENERATED,
+            self::GENERATION_FAILED,
             self::NOT_READY
         ];
     }

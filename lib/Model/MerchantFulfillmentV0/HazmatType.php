@@ -52,7 +52,7 @@ class HazmatType
     public static function getAllowableEnumValues()
     {
         return [
-            self::NONE
+            self::NONE,
             self::LQ_HAZMAT
         ];
     }

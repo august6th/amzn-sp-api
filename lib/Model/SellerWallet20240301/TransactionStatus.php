@@ -56,11 +56,11 @@ class TransactionStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::EXPIRED
-            self::FAILED
-            self::FAILED_CREDITS_APPLIED
-            self::IN_PROGRESS
-            self::PENDING_USER_APPROVAL
+            self::EXPIRED,
+            self::FAILED,
+            self::FAILED_CREDITS_APPLIED,
+            self::IN_PROGRESS,
+            self::PENDING_USER_APPROVAL,
             self::SUCCESSFUL
         ];
     }

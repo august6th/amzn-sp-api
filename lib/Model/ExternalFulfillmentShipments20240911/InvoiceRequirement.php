@@ -189,8 +189,8 @@ class InvoiceRequirement implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_PENDING
-            self::STATUS_AVAILABLE
+            self::STATUS_PENDING,
+            self::STATUS_AVAILABLE,
             self::STATUS_NOT_AVAILABLE
         ];
     }

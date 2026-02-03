@@ -174,7 +174,7 @@ class Weight implements ModelInterface, ArrayAccess
     public function getWeightUnitAllowableValues()
     {
         return [
-            self::WEIGHT_UNIT_G
+            self::WEIGHT_UNIT_G,
             self::WEIGHT_UNIT_KG
         ];
     }

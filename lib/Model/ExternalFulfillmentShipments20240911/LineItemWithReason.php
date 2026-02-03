@@ -174,7 +174,7 @@ class LineItemWithReason implements ModelInterface, ArrayAccess
     public function getReasonAllowableValues()
     {
         return [
-            self::REASON_OUT_OF_STOCK
+            self::REASON_OUT_OF_STOCK,
             self::REASON_CUSTOMER_REQUESTED
         ];
     }

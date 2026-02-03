@@ -58,13 +58,13 @@ class DecoratorType
     public static function getAllowableEnumValues()
     {
         return [
-            self::LIST_ITEM
-            self::LIST_ORDERED
-            self::LIST_UNORDERED
-            self::STYLE_BOLD
-            self::STYLE_ITALIC
-            self::STYLE_LINEBREAK
-            self::STYLE_PARAGRAPH
+            self::LIST_ITEM,
+            self::LIST_ORDERED,
+            self::LIST_UNORDERED,
+            self::STYLE_BOLD,
+            self::STYLE_ITALIC,
+            self::STYLE_LINEBREAK,
+            self::STYLE_PARAGRAPH,
             self::STYLE_UNDERLINE
         ];
     }

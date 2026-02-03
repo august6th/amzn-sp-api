@@ -52,7 +52,7 @@ class SortOrder
     public static function getAllowableEnumValues()
     {
         return [
-            self::ASC
+            self::ASC,
             self::DESC
         ];
     }

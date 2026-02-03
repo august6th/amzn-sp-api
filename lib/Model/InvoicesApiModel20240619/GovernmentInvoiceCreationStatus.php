@@ -53,8 +53,8 @@ class GovernmentInvoiceCreationStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PROCESSING
-            self::SUCCESS
+            self::PROCESSING,
+            self::SUCCESS,
             self::ERROR
         ];
     }

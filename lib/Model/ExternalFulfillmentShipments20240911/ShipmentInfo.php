@@ -220,7 +220,7 @@ class ShipmentInfo implements ModelInterface, ArrayAccess
     public function getProcessingSourceAllowableValues()
     {
         return [
-            self::PROCESSING_SOURCE_EXTERNAL_PLATFORM
+            self::PROCESSING_SOURCE_EXTERNAL_PLATFORM,
             self::PROCESSING_SOURCE_INTERNAL_PLATFORM
         ];
     }

@@ -186,9 +186,9 @@ class Dimensions implements ModelInterface, ArrayAccess
     public function getUnitOfMeasureAllowableValues()
     {
         return [
-            self::UNIT_OF_MEASURE_IN
-            self::UNIT_OF_MEASURE_FT
-            self::UNIT_OF_MEASURE_METER
+            self::UNIT_OF_MEASURE_IN,
+            self::UNIT_OF_MEASURE_FT,
+            self::UNIT_OF_MEASURE_METER,
             self::UNIT_OF_MEASURE_YARD
         ];
     }

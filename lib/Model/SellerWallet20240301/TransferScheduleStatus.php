@@ -54,9 +54,9 @@ class TransferScheduleStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ENABLED
-            self::DISABLED
-            self::EXPIRED
+            self::ENABLED,
+            self::DISABLED,
+            self::EXPIRED,
             self::DELETED
         ];
     }

@@ -52,7 +52,7 @@ class PresenceStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ABSENT
+            self::ABSENT,
             self::PRESENT
         ];
     }

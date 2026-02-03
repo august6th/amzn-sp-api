@@ -179,7 +179,7 @@ class DocumentSize implements ModelInterface, ArrayAccess
     public function getUnitAllowableValues()
     {
         return [
-            self::UNIT_INCH
+            self::UNIT_INCH,
             self::UNIT_CENTIMETER
         ];
     }

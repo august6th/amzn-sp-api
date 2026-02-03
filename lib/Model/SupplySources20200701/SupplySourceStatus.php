@@ -52,7 +52,7 @@ class SupplySourceStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIVE
+            self::ACTIVE,
             self::INACTIVE
         ];
     }

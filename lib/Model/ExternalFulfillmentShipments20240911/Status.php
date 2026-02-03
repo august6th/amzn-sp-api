@@ -52,7 +52,7 @@ class Status
     public static function getAllowableEnumValues()
     {
         return [
-            self::SUCCESS
+            self::SUCCESS,
             self::FAILURE
         ];
     }

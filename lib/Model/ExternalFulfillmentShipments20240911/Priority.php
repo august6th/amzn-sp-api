@@ -52,7 +52,7 @@ class Priority
     public static function getAllowableEnumValues()
     {
         return [
-            self::HIGH
+            self::HIGH,
             self::LOW
         ];
     }

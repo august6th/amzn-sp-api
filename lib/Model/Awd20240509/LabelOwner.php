@@ -52,7 +52,7 @@ class LabelOwner
     public static function getAllowableEnumValues()
     {
         return [
-            self::AMAZON
+            self::AMAZON,
             self::SELF
         ];
     }

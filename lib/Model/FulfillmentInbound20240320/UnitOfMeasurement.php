@@ -52,7 +52,7 @@ class UnitOfMeasurement
     public static function getAllowableEnumValues()
     {
         return [
-            self::IN
+            self::IN,
             self::CM
         ];
     }

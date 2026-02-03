@@ -62,17 +62,17 @@ class PackageStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::READY_FOR_PICKUP
-            self::PICKED_UP
-            self::AT_ORIGIN_FC
-            self::AT_DESTINATION_FC
-            self::DELIVERED
-            self::REJECTED
-            self::UNDELIVERABLE
-            self::RETURNED_TO_SELLER
-            self::LOST_IN_TRANSIT
-            self::LABEL_CANCELED
-            self::DAMAGED_IN_TRANSIT
+            self::READY_FOR_PICKUP,
+            self::PICKED_UP,
+            self::AT_ORIGIN_FC,
+            self::AT_DESTINATION_FC,
+            self::DELIVERED,
+            self::REJECTED,
+            self::UNDELIVERABLE,
+            self::RETURNED_TO_SELLER,
+            self::LOST_IN_TRANSIT,
+            self::LABEL_CANCELED,
+            self::DAMAGED_IN_TRANSIT,
             self::OUT_FOR_DELIVERY
         ];
     }

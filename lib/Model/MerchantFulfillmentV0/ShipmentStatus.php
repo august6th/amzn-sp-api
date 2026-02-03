@@ -54,9 +54,9 @@ class ShipmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PURCHASED
-            self::REFUND_PENDING
-            self::REFUND_REJECTED
+            self::PURCHASED,
+            self::REFUND_PENDING,
+            self::REFUND_REJECTED,
             self::REFUND_APPLIED
         ];
     }

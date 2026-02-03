@@ -184,7 +184,7 @@ class Error implements ModelInterface, ArrayAccess
     public function getErrorLevelAllowableValues()
     {
         return [
-            self::ERROR_LEVEL_ERROR
+            self::ERROR_LEVEL_ERROR,
             self::ERROR_LEVEL_WARNING
         ];
     }

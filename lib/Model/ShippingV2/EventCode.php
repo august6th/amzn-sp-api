@@ -64,19 +64,19 @@ class EventCode
     public static function getAllowableEnumValues()
     {
         return [
-            self::READY_FOR_RECEIVE
-            self::PICKUP_DONE
-            self::DELIVERED
-            self::DEPARTED
-            self::DELIVERY_ATTEMPTED
-            self::LOST
-            self::OUT_FOR_DELIVERY
-            self::ARRIVED_AT_CARRIER_FACILITY
-            self::REJECTED
-            self::UNDELIVERABLE
-            self::PICKUP_CANCELLED
-            self::RETURN_INITIATED
-            self::AVAILABLE_FOR_PICKUP
+            self::READY_FOR_RECEIVE,
+            self::PICKUP_DONE,
+            self::DELIVERED,
+            self::DEPARTED,
+            self::DELIVERY_ATTEMPTED,
+            self::LOST,
+            self::OUT_FOR_DELIVERY,
+            self::ARRIVED_AT_CARRIER_FACILITY,
+            self::REJECTED,
+            self::UNDELIVERABLE,
+            self::PICKUP_CANCELLED,
+            self::RETURN_INITIATED,
+            self::AVAILABLE_FOR_PICKUP,
             self::RECIPIENT_REQUESTED_ALTERNATE_DELIVERY_TIMING
         ];
     }

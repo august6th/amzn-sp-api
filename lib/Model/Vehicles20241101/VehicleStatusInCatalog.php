@@ -52,7 +52,7 @@ class VehicleStatusInCatalog
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIVE
+            self::ACTIVE,
             self::DELETED
         ];
     }

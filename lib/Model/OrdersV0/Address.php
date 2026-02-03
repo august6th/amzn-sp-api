@@ -239,7 +239,7 @@ class Address implements ModelInterface, ArrayAccess
     public function getAddressTypeAllowableValues()
     {
         return [
-            self::ADDRESS_TYPE_RESIDENTIAL
+            self::ADDRESS_TYPE_RESIDENTIAL,
             self::ADDRESS_TYPE_COMMERCIAL
         ];
     }

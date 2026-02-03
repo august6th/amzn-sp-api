@@ -52,7 +52,7 @@ class FulfillmentAction
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHIP
+            self::SHIP,
             self::HOLD
         ];
     }

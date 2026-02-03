@@ -53,8 +53,8 @@ class RateItemType
     public static function getAllowableEnumValues()
     {
         return [
-            self::MANDATORY
-            self::OPTIONAL
+            self::MANDATORY,
+            self::OPTIONAL,
             self::INCLUDED
         ];
     }

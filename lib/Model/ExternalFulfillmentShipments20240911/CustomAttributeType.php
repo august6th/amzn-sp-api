@@ -55,10 +55,10 @@ class CustomAttributeType
     public static function getAllowableEnumValues()
     {
         return [
-            self::STRING
-            self::BOOLEAN
-            self::INTEGER
-            self::DOUBLE
+            self::STRING,
+            self::BOOLEAN,
+            self::INTEGER,
+            self::DOUBLE,
             self::JSON_STRING
         ];
     }

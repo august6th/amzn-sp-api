@@ -55,10 +55,10 @@ class ItemCondition
     public static function getAllowableEnumValues()
     {
         return [
-            self::_NEW
-            self::USED
-            self::COLLECTIBLE
-            self::REFURBISHED
+            self::_NEW,
+            self::USED,
+            self::COLLECTIBLE,
+            self::REFURBISHED,
             self::CLUB
         ];
     }

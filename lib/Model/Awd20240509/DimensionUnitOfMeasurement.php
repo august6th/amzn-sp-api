@@ -52,7 +52,7 @@ class DimensionUnitOfMeasurement
     public static function getAllowableEnumValues()
     {
         return [
-            self::INCHES
+            self::INCHES,
             self::CENTIMETERS
         ];
     }

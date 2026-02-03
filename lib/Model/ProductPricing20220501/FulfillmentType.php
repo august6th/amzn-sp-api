@@ -52,7 +52,7 @@ class FulfillmentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::AFN
+            self::AFN,
             self::MFN
         ];
     }

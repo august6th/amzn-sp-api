@@ -53,8 +53,8 @@ class CarrierWillPickUpOption
     public static function getAllowableEnumValues()
     {
         return [
-            self::CARRIER_WILL_PICK_UP
-            self::SHIPPER_WILL_DROP_OFF
+            self::CARRIER_WILL_PICK_UP,
+            self::SHIPPER_WILL_DROP_OFF,
             self::NO_PREFERENCE
         ];
     }

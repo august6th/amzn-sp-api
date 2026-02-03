@@ -52,7 +52,7 @@ class GenerationStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::COMPLETED
+            self::COMPLETED,
             self::IN_PROGRESS
         ];
     }

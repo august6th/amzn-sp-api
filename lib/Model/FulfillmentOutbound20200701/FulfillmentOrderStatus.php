@@ -59,14 +59,14 @@ class FulfillmentOrderStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::_NEW
-            self::RECEIVED
-            self::PLANNING
-            self::PROCESSING
-            self::CANCELLED
-            self::COMPLETE
-            self::COMPLETE_PARTIALLED
-            self::UNFULFILLABLE
+            self::_NEW,
+            self::RECEIVED,
+            self::PLANNING,
+            self::PROCESSING,
+            self::CANCELLED,
+            self::COMPLETE,
+            self::COMPLETE_PARTIALLED,
+            self::UNFULFILLABLE,
             self::INVALID
         ];
     }

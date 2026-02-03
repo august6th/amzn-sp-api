@@ -52,7 +52,7 @@ class FulfillmentChannelType
     public static function getAllowableEnumValues()
     {
         return [
-            self::AMAZON
+            self::AMAZON,
             self::MERCHANT
         ];
     }

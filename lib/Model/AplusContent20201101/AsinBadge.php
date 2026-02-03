@@ -54,9 +54,9 @@ class AsinBadge
     public static function getAllowableEnumValues()
     {
         return [
-            self::BRAND_NOT_ELIGIBLE
-            self::CATALOG_NOT_FOUND
-            self::CONTENT_NOT_PUBLISHED
+            self::BRAND_NOT_ELIGIBLE,
+            self::CATALOG_NOT_FOUND,
+            self::CONTENT_NOT_PUBLISHED,
             self::CONTENT_PUBLISHED
         ];
     }

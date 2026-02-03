@@ -223,7 +223,7 @@ class Package implements ModelInterface, ArrayAccess
     public function getPackageHandlingRequirementsAllowableValues()
     {
         return [
-            self::PACKAGE_HANDLING_REQUIREMENTS_NORMAL
+            self::PACKAGE_HANDLING_REQUIREMENTS_NORMAL,
             self::PACKAGE_HANDLING_REQUIREMENTS_FRAGILE
         ];
     }

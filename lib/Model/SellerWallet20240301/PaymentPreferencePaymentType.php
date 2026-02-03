@@ -52,7 +52,7 @@ class PaymentPreferencePaymentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::PERCENTAGE
+            self::PERCENTAGE,
             self::AMOUNT
         ];
     }

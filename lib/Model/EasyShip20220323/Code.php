@@ -61,16 +61,16 @@ class Code
     public static function getAllowableEnumValues()
     {
         return [
-            self::INVALID_INPUT
-            self::INVALID_TIME_SLOT_ID
-            self::SCHEDULED_PACKAGE_ALREADY_EXISTS
-            self::SCHEDULE_WINDOW_EXPIRED
-            self::RETRYABLE_AFTER_GETTING_NEW_SLOTS
-            self::TIME_SLOT_NOT_AVAILABLE
-            self::RESOURCE_NOT_FOUND
-            self::INVALID_ORDER_STATE
-            self::REGION_NOT_SUPPORTED
-            self::ORDER_NOT_ELIGIBLE_FOR_RESCHEDULING
+            self::INVALID_INPUT,
+            self::INVALID_TIME_SLOT_ID,
+            self::SCHEDULED_PACKAGE_ALREADY_EXISTS,
+            self::SCHEDULE_WINDOW_EXPIRED,
+            self::RETRYABLE_AFTER_GETTING_NEW_SLOTS,
+            self::TIME_SLOT_NOT_AVAILABLE,
+            self::RESOURCE_NOT_FOUND,
+            self::INVALID_ORDER_STATE,
+            self::REGION_NOT_SUPPORTED,
+            self::ORDER_NOT_ELIGIBLE_FOR_RESCHEDULING,
             self::INTERNAL_SERVER_ERROR
         ];
     }

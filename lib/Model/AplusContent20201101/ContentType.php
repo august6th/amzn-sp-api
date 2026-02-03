@@ -52,7 +52,7 @@ class ContentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::EBC
+            self::EBC,
             self::EMC
         ];
     }

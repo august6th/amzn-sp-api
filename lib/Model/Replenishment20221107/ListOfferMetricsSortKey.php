@@ -59,14 +59,14 @@ class ListOfferMetricsSortKey
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHIPPED_SUBSCRIPTION_UNITS
-            self::TOTAL_SUBSCRIPTIONS_REVENUE
-            self::ACTIVE_SUBSCRIPTIONS
-            self::NEXT_90_DAYS_SHIPPED_SUBSCRIPTION_UNITS
-            self::NEXT_60_DAYS_SHIPPED_SUBSCRIPTION_UNITS
-            self::NEXT_30_DAYS_SHIPPED_SUBSCRIPTION_UNITS
-            self::NEXT_90_DAYS_TOTAL_SUBSCRIPTIONS_REVENUE
-            self::NEXT_60_DAYS_TOTAL_SUBSCRIPTIONS_REVENUE
+            self::SHIPPED_SUBSCRIPTION_UNITS,
+            self::TOTAL_SUBSCRIPTIONS_REVENUE,
+            self::ACTIVE_SUBSCRIPTIONS,
+            self::NEXT_90_DAYS_SHIPPED_SUBSCRIPTION_UNITS,
+            self::NEXT_60_DAYS_SHIPPED_SUBSCRIPTION_UNITS,
+            self::NEXT_30_DAYS_SHIPPED_SUBSCRIPTION_UNITS,
+            self::NEXT_90_DAYS_TOTAL_SUBSCRIPTIONS_REVENUE,
+            self::NEXT_60_DAYS_TOTAL_SUBSCRIPTIONS_REVENUE,
             self::NEXT_30_DAYS_TOTAL_SUBSCRIPTIONS_REVENUE
         ];
     }

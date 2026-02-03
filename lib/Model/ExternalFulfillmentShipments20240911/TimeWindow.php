@@ -179,7 +179,7 @@ class TimeWindow implements ModelInterface, ArrayAccess
     public function getHandoverMethodAllowableValues()
     {
         return [
-            self::HANDOVER_METHOD_PICKUP
+            self::HANDOVER_METHOD_PICKUP,
             self::HANDOVER_METHOD_DROPOFF
         ];
     }

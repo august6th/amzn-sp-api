@@ -53,8 +53,8 @@ class AccountType
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHIPPER_ACCOUNT
-            self::SHIPPER_ACCOUNT_WITH_INVOICE
+            self::SHIPPER_ACCOUNT,
+            self::SHIPPER_ACCOUNT_WITH_INVOICE,
             self::AMAZON_ACCOUNT
         ];
     }

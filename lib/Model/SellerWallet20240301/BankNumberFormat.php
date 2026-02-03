@@ -52,7 +52,7 @@ class BankNumberFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::BIC
+            self::BIC,
             self::BASIC
         ];
     }

@@ -60,15 +60,15 @@ class IneligibilityReasonCode
     public static function getAllowableEnumValues()
     {
         return [
-            self::NO_COVERAGE
-            self::PICKUP_SLOT_RESTRICTION
-            self::UNSUPPORTED_VAS
-            self::VAS_COMBINATION_RESTRICTION
-            self::SIZE_RESTRICTIONS
-            self::WEIGHT_RESTRICTIONS
-            self::LATE_DELIVERY
-            self::PROGRAM_CONSTRAINTS
-            self::TERMS_AND_CONDITIONS_NOT_ACCEPTED
+            self::NO_COVERAGE,
+            self::PICKUP_SLOT_RESTRICTION,
+            self::UNSUPPORTED_VAS,
+            self::VAS_COMBINATION_RESTRICTION,
+            self::SIZE_RESTRICTIONS,
+            self::WEIGHT_RESTRICTIONS,
+            self::LATE_DELIVERY,
+            self::PROGRAM_CONSTRAINTS,
+            self::TERMS_AND_CONDITIONS_NOT_ACCEPTED,
             self::UNKNOWN
         ];
     }

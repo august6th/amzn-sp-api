@@ -55,10 +55,10 @@ class VerificationStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PENDING
-            self::APPROVED
-            self::REJECTED
-            self::EXPIRED
+            self::PENDING,
+            self::APPROVED,
+            self::REJECTED,
+            self::EXPIRED,
             self::CANCELLED
         ];
     }

@@ -52,7 +52,7 @@ class SettlementType
     public static function getAllowableEnumValues()
     {
         return [
-            self::REFUND
+            self::REFUND,
             self::CERTIFICATE_OF_FACT
         ];
     }

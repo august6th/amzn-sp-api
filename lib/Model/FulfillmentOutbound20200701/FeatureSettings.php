@@ -174,7 +174,7 @@ class FeatureSettings implements ModelInterface, ArrayAccess
     public function getFeatureFulfillmentPolicyAllowableValues()
     {
         return [
-            self::FEATURE_FULFILLMENT_POLICY_REQUIRED
+            self::FEATURE_FULFILLMENT_POLICY_REQUIRED,
             self::FEATURE_FULFILLMENT_POLICY_NOT_REQUIRED
         ];
     }

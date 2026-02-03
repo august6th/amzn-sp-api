@@ -53,8 +53,8 @@ class FeeType
     public static function getAllowableEnumValues()
     {
         return [
-            self::MISCELLANEOUS_FEE
-            self::TAX
+            self::MISCELLANEOUS_FEE,
+            self::TAX,
             self::TRANSACTION_FEE
         ];
     }

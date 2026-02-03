@@ -174,7 +174,7 @@ class DeleteNotificationsRequest implements ModelInterface, ArrayAccess
     public function getDeletionReasonAllowableValues()
     {
         return [
-            self::DELETION_REASON_CONTENT
+            self::DELETION_REASON_CONTENT,
             self::DELETION_REASON_RECIPIENT
         ];
     }

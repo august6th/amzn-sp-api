@@ -52,7 +52,7 @@ class PaymentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::THROUGH_AMAZON
+            self::THROUGH_AMAZON,
             self::DIRECT_TO_CARRIER
         ];
     }

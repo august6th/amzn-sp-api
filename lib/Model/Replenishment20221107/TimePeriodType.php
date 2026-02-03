@@ -52,7 +52,7 @@ class TimePeriodType
     public static function getAllowableEnumValues()
     {
         return [
-            self::PERFORMANCE
+            self::PERFORMANCE,
             self::FORECAST
         ];
     }

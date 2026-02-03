@@ -229,9 +229,9 @@ class ItemDetails implements ModelInterface, ArrayAccess
     public function getHandlingCodeAllowableValues()
     {
         return [
-            self::HANDLING_CODE_OVERSIZED
-            self::HANDLING_CODE_FRAGILE
-            self::HANDLING_CODE_FOOD
+            self::HANDLING_CODE_OVERSIZED,
+            self::HANDLING_CODE_FRAGILE,
+            self::HANDLING_CODE_FOOD,
             self::HANDLING_CODE_HANDLE_WITH_CARE
         ];
     }

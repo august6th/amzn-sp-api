@@ -52,7 +52,7 @@ class ScheduleExpressionType
     public static function getAllowableEnumValues()
     {
         return [
-            self::RECURRING
+            self::RECURRING,
             self::ONE_TIME
         ];
     }

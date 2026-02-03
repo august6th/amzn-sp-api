@@ -56,11 +56,11 @@ class InboundStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::DRAFT
-            self::VALIDATING
-            self::CONFIRMED
-            self::CLOSED
-            self::EXPIRED
+            self::DRAFT,
+            self::VALIDATING,
+            self::CONFIRMED,
+            self::CLOSED,
+            self::EXPIRED,
             self::CANCELLED
         ];
     }

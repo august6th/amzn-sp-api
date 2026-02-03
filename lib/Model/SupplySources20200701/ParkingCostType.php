@@ -52,7 +52,7 @@ class ParkingCostType
     public static function getAllowableEnumValues()
     {
         return [
-            self::FREE
+            self::FREE,
             self::OTHER
         ];
     }

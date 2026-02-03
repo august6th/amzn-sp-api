@@ -179,7 +179,7 @@ class ItemVariationsByMarketplace implements ModelInterface, ArrayAccess
     public function getVariationTypeAllowableValues()
     {
         return [
-            self::VARIATION_TYPE_PARENT
+            self::VARIATION_TYPE_PARENT,
             self::VARIATION_TYPE_CHILD
         ];
     }

@@ -52,7 +52,7 @@ class ContainerLabelFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::PNG
+            self::PNG,
             self::ZPL
         ];
     }

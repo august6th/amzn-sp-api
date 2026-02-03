@@ -53,8 +53,8 @@ class PayeeEntityType
     public static function getAllowableEnumValues()
     {
         return [
-            self::INDIVIDUAL
-            self::BUSINESS
+            self::INDIVIDUAL,
+            self::BUSINESS,
             self::TAX_AUTHORITY
         ];
     }

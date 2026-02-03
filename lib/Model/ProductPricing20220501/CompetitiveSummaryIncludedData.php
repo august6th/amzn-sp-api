@@ -53,8 +53,8 @@ class CompetitiveSummaryIncludedData
     public static function getAllowableEnumValues()
     {
         return [
-            self::FEATURED_BUYING_OPTIONS
-            self::REFERENCE_PRICES
+            self::FEATURED_BUYING_OPTIONS,
+            self::REFERENCE_PRICES,
             self::LOWEST_PRICED_OFFERS
         ];
     }

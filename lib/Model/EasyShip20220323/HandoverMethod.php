@@ -52,7 +52,7 @@ class HandoverMethod
     public static function getAllowableEnumValues()
     {
         return [
-            self::PICKUP
+            self::PICKUP,
             self::DROPOFF
         ];
     }

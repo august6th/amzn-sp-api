@@ -54,9 +54,9 @@ class BalanceType
     public static function getAllowableEnumValues()
     {
         return [
-            self::AVAILABLE
-            self::LOCKED_IN
-            self::LOCKED_OUT
+            self::AVAILABLE,
+            self::LOCKED_IN,
+            self::LOCKED_OUT,
             self::TOTAL
         ];
     }

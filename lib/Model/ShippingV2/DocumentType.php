@@ -54,9 +54,9 @@ class DocumentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::PACKSLIP
-            self::LABEL
-            self::RECEIPT
+            self::PACKSLIP,
+            self::LABEL,
+            self::RECEIPT,
             self::CUSTOM_FORM
         ];
     }

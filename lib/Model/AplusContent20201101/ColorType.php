@@ -52,7 +52,7 @@ class ColorType
     public static function getAllowableEnumValues()
     {
         return [
-            self::DARK
+            self::DARK,
             self::LIGHT
         ];
     }

@@ -54,9 +54,9 @@ class BoxContentsSource
     public static function getAllowableEnumValues()
     {
         return [
-            self::NONE
-            self::FEED
-            self::_2_D_BARCODE
+            self::NONE,
+            self::FEED,
+            self::_2_D_BARCODE,
             self::INTERACTIVE
         ];
     }

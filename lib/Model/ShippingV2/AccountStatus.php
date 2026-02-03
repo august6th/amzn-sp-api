@@ -54,9 +54,9 @@ class AccountStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIVE
-            self::INACTIVE
-            self::PENDING
+            self::ACTIVE,
+            self::INACTIVE,
+            self::PENDING,
             self::SUSPENDED
         ];
     }

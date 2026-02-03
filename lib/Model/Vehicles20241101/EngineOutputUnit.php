@@ -52,7 +52,7 @@ class EngineOutputUnit
     public static function getAllowableEnumValues()
     {
         return [
-            self::KILOWATT
+            self::KILOWATT,
             self::HORSEPOWER
         ];
     }

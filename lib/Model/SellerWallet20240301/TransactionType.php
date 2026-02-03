@@ -52,7 +52,7 @@ class TransactionType
     public static function getAllowableEnumValues()
     {
         return [
-            self::CREDIT
+            self::CREDIT,
             self::DEBIT
         ];
     }

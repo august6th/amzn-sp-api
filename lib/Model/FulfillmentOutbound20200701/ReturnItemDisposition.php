@@ -55,10 +55,10 @@ class ReturnItemDisposition
     public static function getAllowableEnumValues()
     {
         return [
-            self::SELLABLE
-            self::DEFECTIVE
-            self::CUSTOMER_DAMAGED
-            self::CARRIER_DAMAGED
+            self::SELLABLE,
+            self::DEFECTIVE,
+            self::CUSTOMER_DAMAGED,
+            self::CARRIER_DAMAGED,
             self::FULFILLER_DAMAGED
         ];
     }

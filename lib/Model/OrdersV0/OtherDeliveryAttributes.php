@@ -53,8 +53,8 @@ class OtherDeliveryAttributes
     public static function getAllowableEnumValues()
     {
         return [
-            self::HAS_ACCESS_POINT
-            self::PALLET_ENABLED
+            self::HAS_ACCESS_POINT,
+            self::PALLET_ENABLED,
             self::PALLET_DISABLED
         ];
     }

@@ -52,7 +52,7 @@ class LabelFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::PDF
+            self::PDF,
             self::ZPL
         ];
     }

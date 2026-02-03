@@ -52,7 +52,7 @@ class BankAccountNumberFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::IBAN
+            self::IBAN,
             self::BBAN
         ];
     }

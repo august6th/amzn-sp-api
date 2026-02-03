@@ -52,7 +52,7 @@ class EnrollmentMethod
     public static function getAllowableEnumValues()
     {
         return [
-            self::MANUAL
+            self::MANUAL,
             self::AUTOMATIC
         ];
     }

@@ -55,10 +55,10 @@ class ListOffersSortKey
     public static function getAllowableEnumValues()
     {
         return [
-            self::ASIN
-            self::SELLING_PARTNER_FUNDED_BASE_DISCOUNT_PERCENTAGE
-            self::SELLING_PARTNER_FUNDED_TIERED_DISCOUNT_PERCENTAGE
-            self::AMAZON_FUNDED_BASE_DISCOUNT_PERCENTAGE
+            self::ASIN,
+            self::SELLING_PARTNER_FUNDED_BASE_DISCOUNT_PERCENTAGE,
+            self::SELLING_PARTNER_FUNDED_TIERED_DISCOUNT_PERCENTAGE,
+            self::AMAZON_FUNDED_BASE_DISCOUNT_PERCENTAGE,
             self::AMAZON_FUNDED_TIERED_DISCOUNT_PERCENTAGE
         ];
     }

@@ -55,10 +55,10 @@ class LabelFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::PDF
-            self::PNG
-            self::ZPL203
-            self::ZPL300
+            self::PDF,
+            self::PNG,
+            self::ZPL203,
+            self::ZPL300,
             self::SHIPPING_SERVICE_DEFAULT
         ];
     }

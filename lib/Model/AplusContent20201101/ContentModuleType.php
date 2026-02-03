@@ -65,20 +65,20 @@ class ContentModuleType
     public static function getAllowableEnumValues()
     {
         return [
-            self::COMPANY_LOGO
-            self::COMPARISON_TABLE
-            self::FOUR_IMAGE_TEXT
-            self::FOUR_IMAGE_TEXT_QUADRANT
-            self::HEADER_IMAGE_TEXT
-            self::IMAGE_SIDEBAR
-            self::IMAGE_TEXT_OVERLAY
-            self::MULTIPLE_IMAGE_TEXT
-            self::PRODUCT_DESCRIPTION
-            self::SINGLE_IMAGE_HIGHLIGHTS
-            self::SINGLE_IMAGE_SPECS_DETAIL
-            self::SINGLE_SIDE_IMAGE
-            self::TECH_SPECS
-            self::TEXT
+            self::COMPANY_LOGO,
+            self::COMPARISON_TABLE,
+            self::FOUR_IMAGE_TEXT,
+            self::FOUR_IMAGE_TEXT_QUADRANT,
+            self::HEADER_IMAGE_TEXT,
+            self::IMAGE_SIDEBAR,
+            self::IMAGE_TEXT_OVERLAY,
+            self::MULTIPLE_IMAGE_TEXT,
+            self::PRODUCT_DESCRIPTION,
+            self::SINGLE_IMAGE_HIGHLIGHTS,
+            self::SINGLE_IMAGE_SPECS_DETAIL,
+            self::SINGLE_SIDE_IMAGE,
+            self::TECH_SPECS,
+            self::TEXT,
             self::THREE_IMAGE_TEXT
         ];
     }

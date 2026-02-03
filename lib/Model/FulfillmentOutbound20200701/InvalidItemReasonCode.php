@@ -54,9 +54,9 @@ class InvalidItemReasonCode
     public static function getAllowableEnumValues()
     {
         return [
-            self::INVALID_VALUES
-            self::DUPLICATE_REQUEST
-            self::NO_COMPLETED_SHIP_ITEMS
+            self::INVALID_VALUES,
+            self::DUPLICATE_REQUEST,
+            self::NO_COMPLETED_SHIP_ITEMS,
             self::NO_RETURNABLE_QUANTITY
         ];
     }

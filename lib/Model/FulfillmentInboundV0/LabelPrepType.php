@@ -53,8 +53,8 @@ class LabelPrepType
     public static function getAllowableEnumValues()
     {
         return [
-            self::NO_LABEL
-            self::SELLER_LABEL
+            self::NO_LABEL,
+            self::SELLER_LABEL,
             self::AMAZON_LABEL
         ];
     }

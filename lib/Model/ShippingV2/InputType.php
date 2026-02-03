@@ -52,7 +52,7 @@ class InputType
     public static function getAllowableEnumValues()
     {
         return [
-            self::TEXTBOX
+            self::TEXTBOX,
             self::PASSWORD
         ];
     }

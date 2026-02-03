@@ -54,9 +54,9 @@ class EligibilityStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ELIGIBLE
-            self::INELIGIBLE
-            self::SUSPENDED
+            self::ELIGIBLE,
+            self::INELIGIBLE,
+            self::SUSPENDED,
             self::REPLENISHMENT_ONLY_ORDERING
         ];
     }

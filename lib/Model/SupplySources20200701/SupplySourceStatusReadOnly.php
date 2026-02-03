@@ -53,8 +53,8 @@ class SupplySourceStatusReadOnly
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIVE
-            self::INACTIVE
+            self::ACTIVE,
+            self::INACTIVE,
             self::ARCHIVED
         ];
     }

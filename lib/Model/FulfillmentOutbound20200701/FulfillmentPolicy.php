@@ -53,8 +53,8 @@ class FulfillmentPolicy
     public static function getAllowableEnumValues()
     {
         return [
-            self::FILL_OR_KILL
-            self::FILL_ALL
+            self::FILL_OR_KILL,
+            self::FILL_ALL,
             self::FILL_ALL_AVAILABLE
         ];
     }

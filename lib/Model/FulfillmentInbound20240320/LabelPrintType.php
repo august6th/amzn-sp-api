@@ -52,7 +52,7 @@ class LabelPrintType
     public static function getAllowableEnumValues()
     {
         return [
-            self::STANDARD_FORMAT
+            self::STANDARD_FORMAT,
             self::THERMAL_PRINTING
         ];
     }

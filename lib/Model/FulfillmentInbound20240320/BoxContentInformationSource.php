@@ -53,8 +53,8 @@ class BoxContentInformationSource
     public static function getAllowableEnumValues()
     {
         return [
-            self::BOX_CONTENT_PROVIDED
-            self::MANUAL_PROCESS
+            self::BOX_CONTENT_PROVIDED,
+            self::MANUAL_PROCESS,
             self::BARCODE_2_D
         ];
     }

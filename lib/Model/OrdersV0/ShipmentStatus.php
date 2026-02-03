@@ -53,8 +53,8 @@ class ShipmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::READY_FOR_PICKUP
-            self::PICKED_UP
+            self::READY_FOR_PICKUP,
+            self::PICKED_UP,
             self::REFUSED_PICKUP
         ];
     }

@@ -53,8 +53,8 @@ class PaymentMethodType
     public static function getAllowableEnumValues()
     {
         return [
-            self::BANK_ACCOUNT
-            self::CARD
+            self::BANK_ACCOUNT,
+            self::CARD,
             self::SELLER_WALLET
         ];
     }

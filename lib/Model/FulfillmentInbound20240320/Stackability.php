@@ -52,7 +52,7 @@ class Stackability
     public static function getAllowableEnumValues()
     {
         return [
-            self::STACKABLE
+            self::STACKABLE,
             self::NON_STACKABLE
         ];
     }

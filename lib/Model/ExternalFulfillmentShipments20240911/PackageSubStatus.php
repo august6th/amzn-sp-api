@@ -54,9 +54,9 @@ class PackageSubStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::OUT_FOR_DELIVERY
-            self::DELIVERED
-            self::NOT_DELIVERED
+            self::OUT_FOR_DELIVERY,
+            self::DELIVERED,
+            self::NOT_DELIVERED,
             self::UNDELIVERABLE
         ];
     }

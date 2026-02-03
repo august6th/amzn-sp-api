@@ -53,8 +53,8 @@ class PrepGuidance
     public static function getAllowableEnumValues()
     {
         return [
-            self::CONSULT_HELP_DOCUMENTS
-            self::NO_ADDITIONAL_PREP_REQUIRED
+            self::CONSULT_HELP_DOCUMENTS,
+            self::NO_ADDITIONAL_PREP_REQUIRED,
             self::SEE_PREP_INSTRUCTIONS_LIST
         ];
     }

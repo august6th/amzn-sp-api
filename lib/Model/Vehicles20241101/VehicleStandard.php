@@ -52,7 +52,7 @@ class VehicleStandard
     public static function getAllowableEnumValues()
     {
         return [
-            self::KTYPE
+            self::KTYPE,
             self::AMAZON_ID
         ];
     }

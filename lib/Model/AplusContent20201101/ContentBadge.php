@@ -55,10 +55,10 @@ class ContentBadge
     public static function getAllowableEnumValues()
     {
         return [
-            self::BULK
-            self::GENERATED
-            self::LAUNCHPAD
-            self::PREMIUM
+            self::BULK,
+            self::GENERATED,
+            self::LAUNCHPAD,
+            self::PREMIUM,
             self::STANDARD
         ];
     }

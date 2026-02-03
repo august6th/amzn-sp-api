@@ -61,16 +61,16 @@ class ItemLabelPageType
     public static function getAllowableEnumValues()
     {
         return [
-            self::A4_21
-            self::A4_24
-            self::A4_24_64X33
-            self::A4_24_66X35
-            self::A4_24_70X36
-            self::A4_24_70X37
-            self::A4_24I
-            self::A4_27
-            self::A4_40_52X29
-            self::A4_44_48X25
+            self::A4_21,
+            self::A4_24,
+            self::A4_24_64X33,
+            self::A4_24_66X35,
+            self::A4_24_70X36,
+            self::A4_24_70X37,
+            self::A4_24I,
+            self::A4_27,
+            self::A4_40_52X29,
+            self::A4_44_48X25,
             self::LETTER_30
         ];
     }

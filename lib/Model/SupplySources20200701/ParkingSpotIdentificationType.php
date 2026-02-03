@@ -52,7 +52,7 @@ class ParkingSpotIdentificationType
     public static function getAllowableEnumValues()
     {
         return [
-            self::NUMBERED
+            self::NUMBERED,
             self::OTHER
         ];
     }

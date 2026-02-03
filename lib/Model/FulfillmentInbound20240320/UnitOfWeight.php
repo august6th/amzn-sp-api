@@ -52,7 +52,7 @@ class UnitOfWeight
     public static function getAllowableEnumValues()
     {
         return [
-            self::LB
+            self::LB,
             self::KG
         ];
     }

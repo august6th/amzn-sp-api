@@ -60,15 +60,15 @@ class ShipmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::WORKING
-            self::SHIPPED
-            self::RECEIVING
-            self::CANCELLED
-            self::DELETED
-            self::CLOSED
-            self::ERROR
-            self::IN_TRANSIT
-            self::DELIVERED
+            self::WORKING,
+            self::SHIPPED,
+            self::RECEIVING,
+            self::CANCELLED,
+            self::DELETED,
+            self::CLOSED,
+            self::ERROR,
+            self::IN_TRANSIT,
+            self::DELIVERED,
             self::CHECKED_IN
         ];
     }

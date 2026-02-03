@@ -53,8 +53,8 @@ class BarcodeInstruction
     public static function getAllowableEnumValues()
     {
         return [
-            self::REQUIRES_FNSKU_LABEL
-            self::CAN_USE_ORIGINAL_BARCODE
+            self::REQUIRES_FNSKU_LABEL,
+            self::CAN_USE_ORIGINAL_BARCODE,
             self::MUST_PROVIDE_SELLER_SKU
         ];
     }

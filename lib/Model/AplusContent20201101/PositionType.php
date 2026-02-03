@@ -52,7 +52,7 @@ class PositionType
     public static function getAllowableEnumValues()
     {
         return [
-            self::LEFT
+            self::LEFT,
             self::RIGHT
         ];
     }

@@ -52,7 +52,7 @@ class ShipmentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::FORWARD
+            self::FORWARD,
             self::RETURNS
         ];
     }

@@ -52,7 +52,7 @@ class OfferCustomerType
     public static function getAllowableEnumValues()
     {
         return [
-            self::B2_C
+            self::B2_C,
             self::B2_B
         ];
     }

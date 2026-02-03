@@ -54,9 +54,9 @@ class CapacityType
     public static function getAllowableEnumValues()
     {
         return [
-            self::SCHEDULED_CAPACITY
-            self::AVAILABLE_CAPACITY
-            self::ENCUMBERED_CAPACITY
+            self::SCHEDULED_CAPACITY,
+            self::AVAILABLE_CAPACITY,
+            self::ENCUMBERED_CAPACITY,
             self::RESERVED_CAPACITY
         ];
     }

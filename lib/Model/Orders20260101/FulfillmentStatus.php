@@ -57,12 +57,12 @@ class FulfillmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PENDING_AVAILABILITY
-            self::PENDING
-            self::UNSHIPPED
-            self::PARTIALLY_SHIPPED
-            self::SHIPPED
-            self::CANCELLED
+            self::PENDING_AVAILABILITY,
+            self::PENDING,
+            self::UNSHIPPED,
+            self::PARTIALLY_SHIPPED,
+            self::SHIPPED,
+            self::CANCELLED,
             self::UNFULFILLABLE
         ];
     }

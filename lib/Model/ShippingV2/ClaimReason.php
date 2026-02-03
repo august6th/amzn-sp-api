@@ -55,10 +55,10 @@ class ClaimReason
     public static function getAllowableEnumValues()
     {
         return [
-            self::LOST_IN_TRANSIT
-            self::DAMAGED_IN_TRANSIT
-            self::DELIVERED_NOT_RECEIVED
-            self::ITEM_MISSING_SWITCHEROO
+            self::LOST_IN_TRANSIT,
+            self::DAMAGED_IN_TRANSIT,
+            self::DELIVERED_NOT_RECEIVED,
+            self::ITEM_MISSING_SWITCHEROO,
             self::COD_ABUSE
         ];
     }

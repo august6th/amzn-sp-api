@@ -52,7 +52,7 @@ class CustomerType
     public static function getAllowableEnumValues()
     {
         return [
-            self::CONSUMER
+            self::CONSUMER,
             self::BUSINESS
         ];
     }

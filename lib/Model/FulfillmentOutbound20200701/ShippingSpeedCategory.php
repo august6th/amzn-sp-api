@@ -54,9 +54,9 @@ class ShippingSpeedCategory
     public static function getAllowableEnumValues()
     {
         return [
-            self::STANDARD
-            self::EXPEDITED
-            self::PRIORITY
+            self::STANDARD,
+            self::EXPEDITED,
+            self::PRIORITY,
             self::SCHEDULED_DELIVERY
         ];
     }

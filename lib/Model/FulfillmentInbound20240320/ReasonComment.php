@@ -59,14 +59,14 @@ class ReasonComment
     public static function getAllowableEnumValues()
     {
         return [
-            self::APPOINTMENT_REQUESTED_BY_MISTAKE
-            self::VEHICLE_DELAY
-            self::SLOT_NOT_SUITABLE
-            self::OUTSIDE_CARRIER_BUSINESS_HOURS
-            self::UNFAVOURABLE_EXTERNAL_CONDITIONS
-            self::PROCUREMENT_DELAY
-            self::SHIPPING_PLAN_CHANGED
-            self::INCREASED_QUANTITY
+            self::APPOINTMENT_REQUESTED_BY_MISTAKE,
+            self::VEHICLE_DELAY,
+            self::SLOT_NOT_SUITABLE,
+            self::OUTSIDE_CARRIER_BUSINESS_HOURS,
+            self::UNFAVOURABLE_EXTERNAL_CONDITIONS,
+            self::PROCUREMENT_DELAY,
+            self::SHIPPING_PLAN_CHANGED,
+            self::INCREASED_QUANTITY,
             self::OTHER
         ];
     }

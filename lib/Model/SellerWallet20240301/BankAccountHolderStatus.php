@@ -54,9 +54,9 @@ class BankAccountHolderStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ACTIVE
-            self::INACTIVE
-            self::UNDER_REVIEW
+            self::ACTIVE,
+            self::INACTIVE,
+            self::UNDER_REVIEW,
             self::VERIFICATION_FAILED
         ];
     }

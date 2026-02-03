@@ -64,19 +64,19 @@ class Metric
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHIPPED_SUBSCRIPTION_UNITS
-            self::TOTAL_SUBSCRIPTIONS_REVENUE
-            self::ACTIVE_SUBSCRIPTIONS
-            self::NOT_DELIVERED_DUE_TO_OOS
-            self::SUBSCRIBER_NON_SUBSCRIBER_AVERAGE_REVENUE
-            self::LOST_REVENUE_DUE_TO_OOS
-            self::SUBSCRIBER_NON_SUBSCRIBER_AVERAGE_REORDERS
-            self::COUPONS_REVENUE_PENETRATION
-            self::REVENUE_BY_DELIVERIES
-            self::SUBSCRIBER_RETENTION
-            self::REVENUE_PENETRATION_BY_SELLER_FUNDING
-            self::SHARE_OF_COUPON_SUBSCRIPTIONS
-            self::SUBSCRIBER_LIFETIME_VALUE_BY_CUSTOMER_SEGMENT
+            self::SHIPPED_SUBSCRIPTION_UNITS,
+            self::TOTAL_SUBSCRIPTIONS_REVENUE,
+            self::ACTIVE_SUBSCRIPTIONS,
+            self::NOT_DELIVERED_DUE_TO_OOS,
+            self::SUBSCRIBER_NON_SUBSCRIBER_AVERAGE_REVENUE,
+            self::LOST_REVENUE_DUE_TO_OOS,
+            self::SUBSCRIBER_NON_SUBSCRIBER_AVERAGE_REORDERS,
+            self::COUPONS_REVENUE_PENETRATION,
+            self::REVENUE_BY_DELIVERIES,
+            self::SUBSCRIBER_RETENTION,
+            self::REVENUE_PENETRATION_BY_SELLER_FUNDING,
+            self::SHARE_OF_COUPON_SUBSCRIPTIONS,
+            self::SUBSCRIBER_LIFETIME_VALUE_BY_CUSTOMER_SEGMENT,
             self::SIGNUP_CONVERSION_BY_SELLER_FUNDING
         ];
     }

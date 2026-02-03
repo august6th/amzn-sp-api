@@ -53,8 +53,8 @@ class NdrAction
     public static function getAllowableEnumValues()
     {
         return [
-            self::RESCHEDULE
-            self::REATTEMPT
+            self::RESCHEDULE,
+            self::REATTEMPT,
             self::RTO
         ];
     }

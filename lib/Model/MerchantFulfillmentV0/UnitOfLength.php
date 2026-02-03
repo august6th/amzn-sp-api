@@ -52,7 +52,7 @@ class UnitOfLength
     public static function getAllowableEnumValues()
     {
         return [
-            self::INCHES
+            self::INCHES,
             self::CENTIMETERS
         ];
     }

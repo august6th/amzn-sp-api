@@ -55,10 +55,10 @@ class ElectronicInvoiceStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::NOT_REQUIRED
-            self::NOT_FOUND
-            self::PROCESSING
-            self::ERRORED
+            self::NOT_REQUIRED,
+            self::NOT_FOUND,
+            self::PROCESSING,
+            self::ERRORED,
             self::ACCEPTED
         ];
     }

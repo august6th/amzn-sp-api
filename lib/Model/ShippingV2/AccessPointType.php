@@ -58,13 +58,13 @@ class AccessPointType
     public static function getAllowableEnumValues()
     {
         return [
-            self::HELIX
-            self::CAMPUS_LOCKER
-            self::OMNI_LOCKER
-            self::ODIN_LOCKER
-            self::DOBBY_LOCKER
-            self::CORE_LOCKER
-            self::_3_P
+            self::HELIX,
+            self::CAMPUS_LOCKER,
+            self::OMNI_LOCKER,
+            self::ODIN_LOCKER,
+            self::DOBBY_LOCKER,
+            self::CORE_LOCKER,
+            self::_3_P,
             self::CAMPUS_ROOM
         ];
     }

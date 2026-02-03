@@ -53,8 +53,8 @@ class OwnerConstraint
     public static function getAllowableEnumValues()
     {
         return [
-            self::AMAZON_ONLY
-            self::NONE_ONLY
+            self::AMAZON_ONLY,
+            self::NONE_ONLY,
             self::SELLER_ONLY
         ];
     }

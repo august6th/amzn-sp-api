@@ -185,8 +185,8 @@ class DetailedShippingTimeType implements ModelInterface, ArrayAccess
     public function getAvailabilityTypeAllowableValues()
     {
         return [
-            self::AVAILABILITY_TYPE_NOW
-            self::AVAILABILITY_TYPE_FUTURE_WITHOUT_DATE
+            self::AVAILABILITY_TYPE_NOW,
+            self::AVAILABILITY_TYPE_FUTURE_WITHOUT_DATE,
             self::AVAILABILITY_TYPE_FUTURE_WITH_DATE
         ];
     }

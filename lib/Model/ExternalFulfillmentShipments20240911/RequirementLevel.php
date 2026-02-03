@@ -52,7 +52,7 @@ class RequirementLevel
     public static function getAllowableEnumValues()
     {
         return [
-            self::REQUIRED
+            self::REQUIRED,
             self::DISALLOWED
         ];
     }

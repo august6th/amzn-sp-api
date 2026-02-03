@@ -60,15 +60,15 @@ class Status
     public static function getAllowableEnumValues()
     {
         return [
-            self::PRE_TRANSIT
-            self::IN_TRANSIT
-            self::DELIVERED
-            self::LOST
-            self::OUT_FOR_DELIVERY
-            self::REJECTED
-            self::UNDELIVERABLE
-            self::DELIVERY_ATTEMPTED
-            self::PICKUP_CANCELLED
+            self::PRE_TRANSIT,
+            self::IN_TRANSIT,
+            self::DELIVERED,
+            self::LOST,
+            self::OUT_FOR_DELIVERY,
+            self::REJECTED,
+            self::UNDELIVERABLE,
+            self::DELIVERY_ATTEMPTED,
+            self::PICKUP_CANCELLED,
             self::AWAITING_CUSTOMER_PICKUP
         ];
     }

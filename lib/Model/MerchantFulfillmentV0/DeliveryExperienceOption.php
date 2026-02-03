@@ -55,10 +55,10 @@ class DeliveryExperienceOption
     public static function getAllowableEnumValues()
     {
         return [
-            self::DELIVERY_CONFIRMATION_WITH_ADULT_SIGNATURE
-            self::DELIVERY_CONFIRMATION_WITH_SIGNATURE
-            self::DELIVERY_CONFIRMATION_WITHOUT_SIGNATURE
-            self::NO_TRACKING
+            self::DELIVERY_CONFIRMATION_WITH_ADULT_SIGNATURE,
+            self::DELIVERY_CONFIRMATION_WITH_SIGNATURE,
+            self::DELIVERY_CONFIRMATION_WITHOUT_SIGNATURE,
+            self::NO_TRACKING,
             self::NO_PREFERENCE
         ];
     }

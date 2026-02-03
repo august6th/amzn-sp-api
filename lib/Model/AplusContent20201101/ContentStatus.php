@@ -54,9 +54,9 @@ class ContentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::APPROVED
-            self::DRAFT
-            self::REJECTED
+            self::APPROVED,
+            self::DRAFT,
+            self::REJECTED,
             self::SUBMITTED
         ];
     }

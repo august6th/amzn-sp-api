@@ -53,8 +53,8 @@ class VolumeUnitOfMeasurement
     public static function getAllowableEnumValues()
     {
         return [
-            self::CU_IN
-            self::CBM
+            self::CU_IN,
+            self::CBM,
             self::CC
         ];
     }

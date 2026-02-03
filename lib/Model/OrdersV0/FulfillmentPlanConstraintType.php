@@ -52,7 +52,7 @@ class FulfillmentPlanConstraintType
     public static function getAllowableEnumValues()
     {
         return [
-            self::MANDATORY
+            self::MANDATORY,
             self::RECOMMENDED
         ];
     }

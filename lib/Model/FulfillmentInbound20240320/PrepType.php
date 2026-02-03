@@ -66,21 +66,21 @@ class PrepType
     public static function getAllowableEnumValues()
     {
         return [
-            self::BLACK_SHRINKWRAP
-            self::BLANKSTK
-            self::BOXING
-            self::BUBBLEWRAP
-            self::CAP_SEALING
-            self::DEBUNDLE
-            self::HANG_GARMENT
-            self::LABELING
-            self::NO_PREP
-            self::POLYBAGGING
-            self::RMOVHANG
-            self::SETCREAT
-            self::SETSTK
-            self::SIOC
-            self::SUFFOSTK
+            self::BLACK_SHRINKWRAP,
+            self::BLANKSTK,
+            self::BOXING,
+            self::BUBBLEWRAP,
+            self::CAP_SEALING,
+            self::DEBUNDLE,
+            self::HANG_GARMENT,
+            self::LABELING,
+            self::NO_PREP,
+            self::POLYBAGGING,
+            self::RMOVHANG,
+            self::SETCREAT,
+            self::SETSTK,
+            self::SIOC,
+            self::SUFFOSTK,
             self::TAPING
         ];
     }

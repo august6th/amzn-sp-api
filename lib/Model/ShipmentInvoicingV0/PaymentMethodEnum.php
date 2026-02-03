@@ -56,11 +56,11 @@ class PaymentMethodEnum
     public static function getAllowableEnumValues()
     {
         return [
-            self::CREDIT_CARD
-            self::DEBIT_CARD
-            self::PIX
-            self::BANK_SLIP
-            self::GIFT_CARD
+            self::CREDIT_CARD,
+            self::DEBIT_CARD,
+            self::PIX,
+            self::BANK_SLIP,
+            self::GIFT_CARD,
             self::OTHER
         ];
     }

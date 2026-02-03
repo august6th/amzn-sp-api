@@ -181,9 +181,9 @@ class Money implements ModelInterface, ArrayAccess
     public function getUnitOfMeasureAllowableValues()
     {
         return [
-            self::UNIT_OF_MEASURE_POUNDS
-            self::UNIT_OF_MEASURE_OUNCES
-            self::UNIT_OF_MEASURE_GRAMS
+            self::UNIT_OF_MEASURE_POUNDS,
+            self::UNIT_OF_MEASURE_OUNCES,
+            self::UNIT_OF_MEASURE_GRAMS,
             self::UNIT_OF_MEASURE_KILOGRAMS
         ];
     }

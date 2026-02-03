@@ -53,8 +53,8 @@ class FileType
     public static function getAllowableEnumValues()
     {
         return [
-            self::APPLICATIONPDF
-            self::APPLICATIONZPL
+            self::APPLICATIONPDF,
+            self::APPLICATIONZPL,
             self::IMAGEPNG
         ];
     }

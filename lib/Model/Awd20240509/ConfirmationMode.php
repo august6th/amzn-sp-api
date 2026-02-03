@@ -52,7 +52,7 @@ class ConfirmationMode
     public static function getAllowableEnumValues()
     {
         return [
-            self::AUTO
+            self::AUTO,
             self::MANUAL
         ];
     }

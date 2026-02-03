@@ -52,7 +52,7 @@ class CurrencyCode
     public static function getAllowableEnumValues()
     {
         return [
-            self::USD
+            self::USD,
             self::GBP
         ];
     }

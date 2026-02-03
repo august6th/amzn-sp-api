@@ -184,7 +184,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     public function getUnitAllowableValues()
     {
         return [
-            self::UNIT_IN
+            self::UNIT_IN,
             self::UNIT_CM
         ];
     }

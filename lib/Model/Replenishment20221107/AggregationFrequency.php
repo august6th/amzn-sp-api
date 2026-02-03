@@ -54,9 +54,9 @@ class AggregationFrequency
     public static function getAllowableEnumValues()
     {
         return [
-            self::WEEK
-            self::MONTH
-            self::QUARTER
+            self::WEEK,
+            self::MONTH,
+            self::QUARTER,
             self::YEAR
         ];
     }

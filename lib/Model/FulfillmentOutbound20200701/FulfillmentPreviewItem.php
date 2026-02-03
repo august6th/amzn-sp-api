@@ -189,7 +189,7 @@ class FulfillmentPreviewItem implements ModelInterface, ArrayAccess
     public function getShippingWeightCalculationMethodAllowableValues()
     {
         return [
-            self::SHIPPING_WEIGHT_CALCULATION_METHOD_PACKAGE
+            self::SHIPPING_WEIGHT_CALCULATION_METHOD_PACKAGE,
             self::SHIPPING_WEIGHT_CALCULATION_METHOD_DIMENSIONAL
         ];
     }

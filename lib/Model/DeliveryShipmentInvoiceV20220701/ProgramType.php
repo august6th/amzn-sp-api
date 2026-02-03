@@ -53,8 +53,8 @@ class ProgramType
     public static function getAllowableEnumValues()
     {
         return [
-            self::EASY_SHIP
-            self::FBA_ON_SITE
+            self::EASY_SHIP,
+            self::FBA_ON_SITE,
             self::SELF_SHIP
         ];
     }

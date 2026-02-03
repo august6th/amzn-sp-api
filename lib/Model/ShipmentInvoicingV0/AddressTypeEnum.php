@@ -52,7 +52,7 @@ class AddressTypeEnum
     public static function getAllowableEnumValues()
     {
         return [
-            self::RESIDENTIAL
+            self::RESIDENTIAL,
             self::COMMERCIAL
         ];
     }

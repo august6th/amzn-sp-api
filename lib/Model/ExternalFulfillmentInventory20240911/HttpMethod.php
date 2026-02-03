@@ -52,7 +52,7 @@ class HttpMethod
     public static function getAllowableEnumValues()
     {
         return [
-            self::GET
+            self::GET,
             self::POST
         ];
     }

@@ -53,8 +53,8 @@ class DocumentFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::PDF
-            self::PNG
+            self::PDF,
+            self::PNG,
             self::ZPL
         ];
     }

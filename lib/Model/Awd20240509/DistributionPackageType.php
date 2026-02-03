@@ -52,7 +52,7 @@ class DistributionPackageType
     public static function getAllowableEnumValues()
     {
         return [
-            self::_CASE
+            self::_CASE,
             self::PALLET
         ];
     }

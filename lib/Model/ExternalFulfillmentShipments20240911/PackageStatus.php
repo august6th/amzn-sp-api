@@ -56,11 +56,11 @@ class PackageStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::CREATED
-            self::PICKUP_SLOT_RETRIEVED
-            self::INVOICE_GENERATED
-            self::SHIPLABEL_GENERATED
-            self::SHIPPED
+            self::CREATED,
+            self::PICKUP_SLOT_RETRIEVED,
+            self::INVOICE_GENERATED,
+            self::SHIPLABEL_GENERATED,
+            self::SHIPPED,
             self::DELIVERED
         ];
     }

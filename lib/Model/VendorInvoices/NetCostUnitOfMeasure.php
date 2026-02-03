@@ -54,9 +54,9 @@ class NetCostUnitOfMeasure
     public static function getAllowableEnumValues()
     {
         return [
-            self::POUNDS
-            self::OUNCES
-            self::GRAMS
+            self::POUNDS,
+            self::OUNCES,
+            self::GRAMS,
             self::KILOGRAMS
         ];
     }

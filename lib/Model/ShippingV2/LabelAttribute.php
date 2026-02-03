@@ -53,8 +53,8 @@ class LabelAttribute
     public static function getAllowableEnumValues()
     {
         return [
-            self::PACKAGE_CLIENT_REFERENCE_ID
-            self::SELLER_DISPLAY_NAME
+            self::PACKAGE_CLIENT_REFERENCE_ID,
+            self::SELLER_DISPLAY_NAME,
             self::COLLECT_ON_DELIVERY_AMOUNT
         ];
     }

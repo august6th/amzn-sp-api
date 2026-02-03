@@ -64,19 +64,19 @@ class PrepCategory
     public static function getAllowableEnumValues()
     {
         return [
-            self::ADULT
-            self::BABY
-            self::FC_PROVIDED
-            self::FRAGILE
-            self::GRANULAR
-            self::HANGER
-            self::LIQUID
-            self::PERFORATED
-            self::SET
-            self::SHARP
-            self::SMALL
-            self::TEXTILE
-            self::UNKNOWN
+            self::ADULT,
+            self::BABY,
+            self::FC_PROVIDED,
+            self::FRAGILE,
+            self::GRANULAR,
+            self::HANGER,
+            self::LIQUID,
+            self::PERFORATED,
+            self::SET,
+            self::SHARP,
+            self::SMALL,
+            self::TEXTILE,
+            self::UNKNOWN,
             self::NONE
         ];
     }

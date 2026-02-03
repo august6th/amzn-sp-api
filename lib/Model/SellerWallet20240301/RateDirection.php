@@ -52,7 +52,7 @@ class RateDirection
     public static function getAllowableEnumValues()
     {
         return [
-            self::BUY
+            self::BUY,
             self::SELL
         ];
     }

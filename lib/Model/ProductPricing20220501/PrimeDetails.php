@@ -170,8 +170,8 @@ class PrimeDetails implements ModelInterface, ArrayAccess
     public function getEligibilityAllowableValues()
     {
         return [
-            self::ELIGIBILITY_NATIONAL
-            self::ELIGIBILITY_REGIONAL
+            self::ELIGIBILITY_NATIONAL,
+            self::ELIGIBILITY_REGIONAL,
             self::ELIGIBILITY_NONE
         ];
     }

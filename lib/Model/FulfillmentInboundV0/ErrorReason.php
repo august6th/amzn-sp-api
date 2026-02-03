@@ -52,7 +52,7 @@ class ErrorReason
     public static function getAllowableEnumValues()
     {
         return [
-            self::DOES_NOT_EXIST
+            self::DOES_NOT_EXIST,
             self::INVALID_ASIN
         ];
     }

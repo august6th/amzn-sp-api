@@ -53,8 +53,8 @@ class TimeUnit
     public static function getAllowableEnumValues()
     {
         return [
-            self::HOURS
-            self::MINUTES
+            self::HOURS,
+            self::MINUTES,
             self::DAYS
         ];
     }

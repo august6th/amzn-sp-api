@@ -80,35 +80,35 @@ class DetailCodes
     public static function getAllowableEnumValues()
     {
         return [
-            self::BUSINESS_CLOSED
-            self::CUSTOMER_UNAVAILABLE
-            self::PAYMENT_NOT_READY
-            self::OTP_NOT_AVAILABLE
-            self::DELIVERY_ATTEMPTED
-            self::UNABLE_TO_ACCESS
-            self::UNABLE_TO_CONTACT_RECIPIENT
-            self::DELIVERED_TO_BEHIND_WHEELIE_BIN
-            self::DELIVERED_TO_PORCH
-            self::DELIVERED_TO_GARAGE
-            self::DELIVERED_TO_GARDEN
-            self::DELIVERED_TO_GREENHOUSE
-            self::DELIVERED_TO_MAIL_SLOT
-            self::DELIVERED_TO_MAIL_ROOM
-            self::DELIVERED_TO_NEIGHBOR
-            self::DELIVERED_TO_REAR_DOOR
-            self::DELIVERED_TO_RECEPTIONIST
-            self::DELIVERED_TO_SHED
-            self::DELIVERED_WITH_OTP
-            self::SIGNED
-            self::DAMAGED
-            self::INCORRECT_ITEMS
-            self::NOT_REQUIRED
-            self::REJECTED
-            self::REJECTED_BY_RECIPIENT_WITH_VERIFICATION
-            self::CANCELLED_BY_RECIPIENT
-            self::ADDRESS_NOT_FOUND
-            self::HAZMAT_SHIPMENT
-            self::UNDELIVERABLE
+            self::BUSINESS_CLOSED,
+            self::CUSTOMER_UNAVAILABLE,
+            self::PAYMENT_NOT_READY,
+            self::OTP_NOT_AVAILABLE,
+            self::DELIVERY_ATTEMPTED,
+            self::UNABLE_TO_ACCESS,
+            self::UNABLE_TO_CONTACT_RECIPIENT,
+            self::DELIVERED_TO_BEHIND_WHEELIE_BIN,
+            self::DELIVERED_TO_PORCH,
+            self::DELIVERED_TO_GARAGE,
+            self::DELIVERED_TO_GARDEN,
+            self::DELIVERED_TO_GREENHOUSE,
+            self::DELIVERED_TO_MAIL_SLOT,
+            self::DELIVERED_TO_MAIL_ROOM,
+            self::DELIVERED_TO_NEIGHBOR,
+            self::DELIVERED_TO_REAR_DOOR,
+            self::DELIVERED_TO_RECEPTIONIST,
+            self::DELIVERED_TO_SHED,
+            self::DELIVERED_WITH_OTP,
+            self::SIGNED,
+            self::DAMAGED,
+            self::INCORRECT_ITEMS,
+            self::NOT_REQUIRED,
+            self::REJECTED,
+            self::REJECTED_BY_RECIPIENT_WITH_VERIFICATION,
+            self::CANCELLED_BY_RECIPIENT,
+            self::ADDRESS_NOT_FOUND,
+            self::HAZMAT_SHIPMENT,
+            self::UNDELIVERABLE,
             self::ARRIVED_AT_LOCAL_FACILITY
         ];
     }

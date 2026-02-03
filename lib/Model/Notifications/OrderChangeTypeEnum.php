@@ -52,7 +52,7 @@ class OrderChangeTypeEnum
     public static function getAllowableEnumValues()
     {
         return [
-            self::ORDER_STATUS_CHANGE
+            self::ORDER_STATUS_CHANGE,
             self::BUYER_REQUESTED_CHANGE
         ];
     }

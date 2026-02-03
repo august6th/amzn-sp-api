@@ -53,8 +53,8 @@ class OptionalFulfillmentProgram
     public static function getAllowableEnumValues()
     {
         return [
-            self::CORE
-            self::SNL
+            self::CORE,
+            self::SNL,
             self::EFN
         ];
     }

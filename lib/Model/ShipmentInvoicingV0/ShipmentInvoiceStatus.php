@@ -54,9 +54,9 @@ class ShipmentInvoiceStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PROCESSING
-            self::ACCEPTED
-            self::ERRORED
+            self::PROCESSING,
+            self::ACCEPTED,
+            self::ERRORED,
             self::NOT_FOUND
         ];
     }

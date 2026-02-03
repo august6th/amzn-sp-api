@@ -57,12 +57,12 @@ class DayOfWeek
     public static function getAllowableEnumValues()
     {
         return [
-            self::MONDAY
-            self::TUESDAY
-            self::WEDNESDAY
-            self::THURSDAY
-            self::FRIDAY
-            self::SATURDAY
+            self::MONDAY,
+            self::TUESDAY,
+            self::WEDNESDAY,
+            self::THURSDAY,
+            self::FRIDAY,
+            self::SATURDAY,
             self::SUNDAY
         ];
     }

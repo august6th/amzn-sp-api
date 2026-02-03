@@ -204,7 +204,7 @@ class ShipmentInformation implements ModelInterface, ArrayAccess
     public function getShipModeAllowableValues()
     {
         return [
-            self::SHIP_MODE_SMALL_PARCEL
+            self::SHIP_MODE_SMALL_PARCEL,
             self::SHIP_MODE_LTL
         ];
     }

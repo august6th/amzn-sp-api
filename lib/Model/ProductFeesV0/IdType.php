@@ -52,7 +52,7 @@ class IdType
     public static function getAllowableEnumValues()
     {
         return [
-            self::ASIN
+            self::ASIN,
             self::SELLER_SKU
         ];
     }

@@ -53,8 +53,8 @@ class InventoryUnitOfMeasurement
     public static function getAllowableEnumValues()
     {
         return [
-            self::PRODUCT_UNITS
-            self::CASES
+            self::PRODUCT_UNITS,
+            self::CASES,
             self::PALLETS
         ];
     }

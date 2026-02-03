@@ -52,7 +52,7 @@ class BankAccountOwnershipType
     public static function getAllowableEnumValues()
     {
         return [
-            self::THIRD_PARTY
+            self::THIRD_PARTY,
             self::SELF
         ];
     }

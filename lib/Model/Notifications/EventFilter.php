@@ -177,7 +177,7 @@ class EventFilter extends AggregationFilter
     public function getEventFilterTypeAllowableValues()
     {
         return [
-            self::EVENT_FILTER_TYPE_ANY_OFFER_CHANGED
+            self::EVENT_FILTER_TYPE_ANY_OFFER_CHANGED,
             self::EVENT_FILTER_TYPE_ORDER_CHANGE
         ];
     }

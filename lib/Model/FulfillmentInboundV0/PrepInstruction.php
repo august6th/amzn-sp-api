@@ -66,21 +66,21 @@ class PrepInstruction
     public static function getAllowableEnumValues()
     {
         return [
-            self::POLYBAGGING
-            self::BUBBLE_WRAPPING
-            self::TAPING
-            self::BLACK_SHRINK_WRAPPING
-            self::LABELING
-            self::HANG_GARMENT
-            self::SET_CREATION
-            self::BOXING
-            self::REMOVE_FROM_HANGER
-            self::DEBUNDLE
-            self::SUFFOCATION_STICKERING
-            self::CAP_SEALING
-            self::SET_STICKERING
-            self::BLANK_STICKERING
-            self::SHIPS_IN_PRODUCT_PACKAGING
+            self::POLYBAGGING,
+            self::BUBBLE_WRAPPING,
+            self::TAPING,
+            self::BLACK_SHRINK_WRAPPING,
+            self::LABELING,
+            self::HANG_GARMENT,
+            self::SET_CREATION,
+            self::BOXING,
+            self::REMOVE_FROM_HANGER,
+            self::DEBUNDLE,
+            self::SUFFOCATION_STICKERING,
+            self::CAP_SEALING,
+            self::SET_STICKERING,
+            self::BLANK_STICKERING,
+            self::SHIPS_IN_PRODUCT_PACKAGING,
             self::NO_PREP
         ];
     }

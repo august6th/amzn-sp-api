@@ -59,14 +59,14 @@ class ReplenishmentOrderStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::CONFIRMED
-            self::CREATED
-            self::ELIGIBLE
-            self::EXECUTING
-            self::FAILURE
-            self::INELIGIBLE
-            self::INVENTORY_OUTBOUND
-            self::SUCCESS
+            self::CONFIRMED,
+            self::CREATED,
+            self::ELIGIBLE,
+            self::EXECUTING,
+            self::FAILURE,
+            self::INELIGIBLE,
+            self::INVENTORY_OUTBOUND,
+            self::SUCCESS,
             self::VALIDATING
         ];
     }

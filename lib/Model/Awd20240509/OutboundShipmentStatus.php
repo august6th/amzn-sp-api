@@ -58,13 +58,13 @@ class OutboundShipmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::CREATED
-            self::IN_TRANSIT
-            self::DELIVERED
-            self::RECEIVING
-            self::RECEIVED
-            self::CLOSED
-            self::CANCELLED
+            self::CREATED,
+            self::IN_TRANSIT,
+            self::DELIVERED,
+            self::RECEIVING,
+            self::RECEIVED,
+            self::CLOSED,
+            self::CANCELLED,
             self::FAILED
         ];
     }

@@ -68,23 +68,23 @@ class CurrentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::IN_TRANSIT
-            self::DELIVERED
-            self::RETURNING
-            self::RETURNED
-            self::UNDELIVERABLE
-            self::DELAYED
-            self::AVAILABLE_FOR_PICKUP
-            self::CUSTOMER_ACTION
-            self::UNKNOWN
-            self::OUT_FOR_DELIVERY
-            self::DELIVERY_ATTEMPTED
-            self::PICKUP_SUCCESSFUL
-            self::PICKUP_CANCELLED
-            self::PICKUP_ATTEMPTED
-            self::PICKUP_SCHEDULED
-            self::RETURN_REQUEST_ACCEPTED
-            self::REFUND_ISSUED
+            self::IN_TRANSIT,
+            self::DELIVERED,
+            self::RETURNING,
+            self::RETURNED,
+            self::UNDELIVERABLE,
+            self::DELAYED,
+            self::AVAILABLE_FOR_PICKUP,
+            self::CUSTOMER_ACTION,
+            self::UNKNOWN,
+            self::OUT_FOR_DELIVERY,
+            self::DELIVERY_ATTEMPTED,
+            self::PICKUP_SUCCESSFUL,
+            self::PICKUP_CANCELLED,
+            self::PICKUP_ATTEMPTED,
+            self::PICKUP_SCHEDULED,
+            self::RETURN_REQUEST_ACCEPTED,
+            self::REFUND_ISSUED,
             self::RETURN_RECEIVED_IN_FC
         ];
     }

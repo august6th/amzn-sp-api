@@ -66,21 +66,21 @@ class EasyShipShipmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::PENDING_SCHEDULE
-            self::PENDING_PICK_UP
-            self::PENDING_DROP_OFF
-            self::LABEL_CANCELED
-            self::PICKED_UP
-            self::DROPPED_OFF
-            self::AT_ORIGIN_FC
-            self::AT_DESTINATION_FC
-            self::DELIVERED
-            self::REJECTED_BY_BUYER
-            self::UNDELIVERABLE
-            self::RETURNING_TO_SELLER
-            self::RETURNED_TO_SELLER
-            self::LOST
-            self::OUT_FOR_DELIVERY
+            self::PENDING_SCHEDULE,
+            self::PENDING_PICK_UP,
+            self::PENDING_DROP_OFF,
+            self::LABEL_CANCELED,
+            self::PICKED_UP,
+            self::DROPPED_OFF,
+            self::AT_ORIGIN_FC,
+            self::AT_DESTINATION_FC,
+            self::DELIVERED,
+            self::REJECTED_BY_BUYER,
+            self::UNDELIVERABLE,
+            self::RETURNING_TO_SELLER,
+            self::RETURNED_TO_SELLER,
+            self::LOST,
+            self::OUT_FOR_DELIVERY,
             self::DAMAGED
         ];
     }

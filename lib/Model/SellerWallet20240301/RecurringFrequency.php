@@ -54,9 +54,9 @@ class RecurringFrequency
     public static function getAllowableEnumValues()
     {
         return [
-            self::DAILY
-            self::WEEKLY
-            self::BIWEEKLY
+            self::DAILY,
+            self::WEEKLY,
+            self::BIWEEKLY,
             self::MONTHLY
         ];
     }

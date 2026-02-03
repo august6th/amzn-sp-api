@@ -188,7 +188,7 @@ class PackingSlipRequirement implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_GENERATED
+            self::STATUS_GENERATED,
             self::STATUS_NOT_GENERATED
         ];
     }

@@ -52,7 +52,7 @@ class FulfillmentReturnItemStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::_NEW
+            self::_NEW,
             self::PROCESSED
         ];
     }

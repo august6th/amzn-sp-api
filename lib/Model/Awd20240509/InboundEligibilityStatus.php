@@ -52,7 +52,7 @@ class InboundEligibilityStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::ELIGIBLE
+            self::ELIGIBLE,
             self::INELIGIBLE
         ];
     }

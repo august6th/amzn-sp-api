@@ -52,7 +52,7 @@ class InputTargetType
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHIPMENT_LEVEL
+            self::SHIPMENT_LEVEL,
             self::ITEM_LEVEL
         ];
     }

@@ -55,10 +55,10 @@ class HttpMethod
     public static function getAllowableEnumValues()
     {
         return [
-            self::GET
-            self::PUT
-            self::PATCH
-            self::DELETE
+            self::GET,
+            self::PUT,
+            self::PATCH,
+            self::DELETE,
             self::POST
         ];
     }

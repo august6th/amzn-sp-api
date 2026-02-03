@@ -53,8 +53,8 @@ class LabelOwner
     public static function getAllowableEnumValues()
     {
         return [
-            self::AMAZON
-            self::SELLER
+            self::AMAZON,
+            self::SELLER,
             self::NONE
         ];
     }

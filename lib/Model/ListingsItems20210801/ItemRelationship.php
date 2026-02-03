@@ -184,7 +184,7 @@ class ItemRelationship implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_VARIATION
+            self::TYPE_VARIATION,
             self::TYPE_PACKAGE_HIERARCHY
         ];
     }

@@ -206,8 +206,8 @@ class OrderItemAcknowledgement implements ModelInterface, ArrayAccess
     public function getRejectionReasonAllowableValues()
     {
         return [
-            self::REJECTION_REASON_TEMPORARILY_UNAVAILABLE
-            self::REJECTION_REASON_INVALID_PRODUCT_IDENTIFIER
+            self::REJECTION_REASON_TEMPORARILY_UNAVAILABLE,
+            self::REJECTION_REASON_INVALID_PRODUCT_IDENTIFIER,
             self::REJECTION_REASON_OBSOLETE_PRODUCT
         ];
     }

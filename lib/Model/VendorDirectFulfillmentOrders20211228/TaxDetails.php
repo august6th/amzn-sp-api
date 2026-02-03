@@ -189,12 +189,12 @@ class TaxDetails implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_CONSUMPTION
-            self::TYPE_GST
-            self::TYPE_MW_ST
-            self::TYPE_PST
-            self::TYPE_TOTAL
-            self::TYPE_TVA
+            self::TYPE_CONSUMPTION,
+            self::TYPE_GST,
+            self::TYPE_MW_ST,
+            self::TYPE_PST,
+            self::TYPE_TOTAL,
+            self::TYPE_TVA,
             self::TYPE_VAT
         ];
     }

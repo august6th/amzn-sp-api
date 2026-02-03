@@ -52,7 +52,7 @@ class AutoEnrollmentPreference
     public static function getAllowableEnumValues()
     {
         return [
-            self::IN
+            self::IN,
             self::OUT
         ];
     }

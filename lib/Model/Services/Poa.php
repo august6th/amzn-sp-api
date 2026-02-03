@@ -191,9 +191,9 @@ class Poa implements ModelInterface, ArrayAccess
     public function getPoaTypeAllowableValues()
     {
         return [
-            self::POA_TYPE_NO_SIGNATURE_DUMMY_POS
-            self::POA_TYPE_CUSTOMER_SIGNATURE
-            self::POA_TYPE_DUMMY_RECEIPT
+            self::POA_TYPE_NO_SIGNATURE_DUMMY_POS,
+            self::POA_TYPE_CUSTOMER_SIGNATURE,
+            self::POA_TYPE_DUMMY_RECEIPT,
             self::POA_TYPE_POA_RECEIPT
         ];
     }

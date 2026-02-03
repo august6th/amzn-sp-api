@@ -174,7 +174,7 @@ class ChargeComponent implements ModelInterface, ArrayAccess
     public function getChargeTypeAllowableValues()
     {
         return [
-            self::CHARGE_TYPE_TAX
+            self::CHARGE_TYPE_TAX,
             self::CHARGE_TYPE_DISCOUNT
         ];
     }

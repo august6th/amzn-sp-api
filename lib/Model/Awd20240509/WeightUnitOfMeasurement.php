@@ -52,7 +52,7 @@ class WeightUnitOfMeasurement
     public static function getAllowableEnumValues()
     {
         return [
-            self::POUNDS
+            self::POUNDS,
             self::KILOGRAMS
         ];
     }

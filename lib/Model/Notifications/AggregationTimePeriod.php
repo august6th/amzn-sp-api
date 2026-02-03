@@ -52,7 +52,7 @@ class AggregationTimePeriod
     public static function getAllowableEnumValues()
     {
         return [
-            self::FIVE_MINUTES
+            self::FIVE_MINUTES,
             self::TEN_MINUTES
         ];
     }

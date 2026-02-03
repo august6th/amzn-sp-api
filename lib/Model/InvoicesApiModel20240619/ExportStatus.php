@@ -54,9 +54,9 @@ class ExportStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::REQUESTED
-            self::PROCESSING
-            self::DONE
+            self::REQUESTED,
+            self::PROCESSING,
+            self::DONE,
             self::ERROR
         ];
     }

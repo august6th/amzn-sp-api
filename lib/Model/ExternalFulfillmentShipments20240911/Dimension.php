@@ -174,7 +174,7 @@ class Dimension implements ModelInterface, ArrayAccess
     public function getDimensionUnitAllowableValues()
     {
         return [
-            self::DIMENSION_UNIT_CM
+            self::DIMENSION_UNIT_CM,
             self::DIMENSION_UNIT_M
         ];
     }

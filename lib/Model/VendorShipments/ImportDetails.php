@@ -223,9 +223,9 @@ class ImportDetails implements ModelInterface, ArrayAccess
     public function getHandlingInstructionsAllowableValues()
     {
         return [
-            self::HANDLING_INSTRUCTIONS_OVERSIZED
-            self::HANDLING_INSTRUCTIONS_FRAGILE
-            self::HANDLING_INSTRUCTIONS_FOOD
+            self::HANDLING_INSTRUCTIONS_OVERSIZED,
+            self::HANDLING_INSTRUCTIONS_FRAGILE,
+            self::HANDLING_INSTRUCTIONS_FOOD,
             self::HANDLING_INSTRUCTIONS_HANDLE_WITH_CARE
         ];
     }

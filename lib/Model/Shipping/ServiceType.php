@@ -53,8 +53,8 @@ class ServiceType
     public static function getAllowableEnumValues()
     {
         return [
-            self::GROUND
-            self::STANDARD
+            self::GROUND,
+            self::STANDARD,
             self::PREMIUM
         ];
     }
